@@ -24,7 +24,7 @@ hr {
     font-size: 30px;
     padding: 3px 20px 3px 20px;
     text-decoration: none;
-  }
+  } 
 .btnContainer {
     margin: 60px auto 30px auto;
 }
@@ -64,12 +64,10 @@ p {
 }
 
 /* TOP */
-
+ 
 .topContainer {
     background-color: #325288;
     padding-top: 50px;
-    margin-bottom: 0;
-    padding-bottom: 0;
 }
 .navbar-brand {
     font-weight: bold;
@@ -101,7 +99,6 @@ p {
 
 .middleContainer {
     background-color: #FAEEE7;
-    margin-top: 0;
     padding-top: 0;
 }
 #headshot{
@@ -114,6 +111,10 @@ p {
     position: relative;
     width: 70%;
     margin: auto;
+}
+.d-block {
+    height: 650px;
+    object-fit: cover;
 }
 .workHistory {
     position: relative;
@@ -169,3 +170,7 @@ p {
 .footer-link:hover {
     color:#D96098;
 }
+
+/* MOBILE */
+
+
